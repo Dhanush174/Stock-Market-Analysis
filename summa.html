@@ -1,0 +1,234 @@
+<head>
+    <meta charset="utf-8">
+    <title>MONRY CRAFTER - MONRY CRAFTER HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+   <!-- Google Web Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+   <!-- Icon Font Stylesheet -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+   <!-- Libraries Stylesheet -->
+   <link href="lib/animate/animate.min.css" rel="stylesheet">
+   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+   <!-- Customized Bootstrap Stylesheet -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Template Stylesheet -->
+   <link href="css/style.css" rel="stylesheet">
+   <style>
+    /* Reset some default styles */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    /* Search bar styles */
+    #searchBar {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 10cm;
+        width: 60%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 5px solid #06BBCC;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
+
+    /* Container styles */
+    #in {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 20px; /* Space between cards and heading */
+        margin-left: 5cm;
+    }
+
+    /* Card styles */
+    .card {
+        width: 24rem;
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.2s, box-shadow 0.2s;
+        border: 1.5px solid black
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #eee;
+    }
+
+    .card-body {
+        padding: 15px;
+
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: white;
+        background-color: #06BBCC;;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    /* Ensure heading is on a new line */
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+   
+ <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>STOCK <SPan>ANALYSIS</SPan></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="new.html" class="nav-item nav-link">Analysis</a>
+                <a href="summa.html" class="nav-item nav-link">Stock</a>
+                <div class="nav-item dropdown">    
+                    </div>
+                </div>
+                
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"><i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <input type="text" id="searchBar" placeholder="Search for a company..." onkeyup="filterCards()">
+    <div id="in">
+        <div class="card" style="width: 24rem;">
+            <img src="/img/icicici.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ICIC</h5>
+                <p class="card-text">ICIC (Inter-Cell Interference Coordination) is a technique used in cellular networks to mitigate interference between neighboring cells, improving overall network performance and user experience. It achieves this by dynamically adjusting transmission power and resource allocation based on real-time network conditions..</p>
+                <a href="https://www.icicibank.com/ms/aboutus/annual-reports/2022-23/icici/index.html" target="_blank" class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img src="/SBI.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">SBI</h5>
+                <p class="card-text">State Bank of India (SBI) is India's largest and oldest public sector bank, offering a comprehensive range of banking and financial services.</p>
+                <a href="https://sbi.co.in/web/corporate-governance/annual-report"  target="blank" class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img src="/tata.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">TATA</h5>
+                <p class="card-text">Tata Group is a multinational conglomerate based in India, renowned for its diverse businesses spanning multiple industries including steel, automobiles, information technology, and consumer goods.</p>
+                <a href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/ar/annual-report-2023-2024.pdf"  target="blank" class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img src="/img/TMB.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">TMB</h5>
+                <p class="card-text">"TMB, or tumor mutational burden, measures the number of mutations present in a tumor's DNA and is used to predict response to immunotherapy in cancer treatment."</p>
+                <a href="https://www.tmb.in/doc/Annual-Report-2022-23.pdf"  target="blank" class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+    </div>
+    <div id="in">
+        <div class="card" style="width: 24rem;">
+            <img src="/img/hindust.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Hindustan Unilever Limited</h5>
+                <p class="card-text">Hindustan Unilever Limited (HUL) is India's largest fast-moving consumer goods (FMCG) company, known for its wide range of products in personal care, home care, and food and beverages.</p>
+                <a href="https://www.hul.co.in/files/92ui5egz/production/6a9122377e0712e70bfb04f0336bf84f84b518ef.pdf"  target="blank" class="btn btn-primary">View Reports</a>
+            </div>
+        </div><div class="card" style="width: 24rem;">
+            <img src="/airtel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Airtel</h5>
+                <p class="card-text">Airtel is a leading global telecommunications company based in India, offering a range of services including mobile, broadband, and digital TV.</p>
+                <a href="https://www.airtel.in/about-bharti/equity/results/annual-results" target="blank"  class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img src="/img/LIC-Logo-Vector.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">LIC</h5>
+                <p class="card-text">LIC (Life Insurance Corporation of India) is a state-owned insurance group and investment corporation in India, providing life insurance products and services to individuals and businesses.</p>
+                <a href="https://licindia.in/annual-reports" target="blank"  class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img src="/INFY-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">INFOSYS</h5>
+                <p class="card-text">Infosys is a multinational corporation providing business consulting, information technology, and outsourcing services.</p>
+                <a href="https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-23.pdf" target="blank"  class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function filterCards() {
+            var input, filter, cardContainers, cards, title, i, j;
+            input = document.getElementById("searchBar");
+            filter = input.value.toUpperCase();
+            cardContainers = document.querySelectorAll("#in");
+
+            cardContainers.forEach(container => {
+                cards = container.getElementsByClassName("card");
+                for (i = 0; i < cards.length; i++) {
+                    title = cards[i].getElementsByClassName("card-title")[0];
+                    if (title.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        cards[i].style.display = "";
+                    } else {
+                        cards[i].style.display = "none";
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
